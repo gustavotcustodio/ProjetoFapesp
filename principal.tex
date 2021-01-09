@@ -1,0 +1,236 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[12pt]{report}
+\usepackage[a4paper]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[english, portuguese]{babel}
+\usepackage[myheadings]{fullpage}
+\usepackage[T1]{fontenc}
+\usepackage{fancyhdr}
+\usepackage{graphicx, setspace}
+\usepackage{sectsty}
+\usepackage{url}
+\usepackage{listings}
+
+%%------
+%% Comandos gerais
+%% Observação: o arquivo "comandos.tex" tem que estar presente.
+%%------
+\input{comandos}
+%
+%%-----
+%% Página de título
+%% Observação: As definições que aparecem a seguir comporão a
+%%             página de título e a folha de rosto.
+%%-----
+%% Define o nome da universidade onde o projeto foi desenvolvido.
+\universidade{Universidade Federal do ABC}
+%
+%% Define o nome da faculdade onde o projeto foi desenvolvido.
+\faculdade{Centro de Matemática, Computação e Cognição}
+%
+%% Define o título do projeto.
+\titulo{Definir título do projeto @@@ }
+%
+%% Define a agencia de Fomento e a abreviatura. O primeiro argumento é o 
+%% nome por extenso e o segundo a abreviatura.
+%% Ambos os argumentos são obrigatórios
+\agFomento{Fundação de Amparo à Pesquisa do Estado de São Paulo}{FAPESP}
+%
+%% Define o tipo de relatório. Pode ser Anual ou Final.
+%% Não é obrigatório definir o tipo de relatório.
+\tipoRelatorio{Final}
+%
+%% Define a modalidade de Projeto. Pode ser temático, regular, etc.
+\modalidadeProjeto{Auxílio à Pesquisa Regular}
+%
+%% Define o autor do relatório.
+\autor{Gustavo Torres Custodio}
+%
+%% Define a equipe do projeto (incluindo o pesquisador responsável no comando \membroA{}
+\membroA{Gustavo Torres Custodio}
+%% Inclua os demais membros do grupo (máximo +5)
+\membroB{Debora Maria Rossi de Medeiros, Dra.}
+%\membroC{Francisco}
+%\membroD{Joao}
+%\membroE{Antonio}
+%\membroF{José}
+%
+%% Define o período da vigência do Projeto.
+\periodoVigencia{01/junho/2015 a 30/maio/2017}
+%
+%% Define o período coberto pelo relatório.
+\periodoRelatorio{01/junho/2015 a 30/maio/2017}
+%
+%% Define a cidade onde o projeto foi desenvolvido.
+\cidade{Santo André}
+
+%%-----
+%% Página de título
+%% Observação: Os comandos a seguir não devem ser mudados, 
+%%             exceto caso necessário.
+%%-----
+\begin{document}
+%
+%% Define a numeração em romanos.
+\pagenumbering{roman}
+%
+%% Gera a folha de título.
+\geraTitulo
+%
+%% Gera a folha de rosto.
+\folhaDeRosto
+%
+%% Escreva aqui o resumo em português.
+\Resumo{
+  Isso é um teste babalsbak das bsak blkab lsab dbaslkb saldbd lsab lasbdlsba ldbsa lbds lab ldkasbkldbs alk bdaslkb ldsakb lsdablk bald blkb dlskab lasdbl sablkds ablkb lkasbd lsdbaklb d 
+  }
+%
+%% Escreva aqui o resumo em inglês.
+\Abstract{
+teste in english
+}
+%
+%% Adicionará o sumário.
+%% Mantenha o \thispagestyle{empty} e \clearpage
+\tableofcontents
+\thispagestyle{empty}
+\clearpage
+%
+%% Define a numeração em arábicos.
+\pagenumbering{arabic}
+
+%%-----
+%% Formatação do título da seção
+%%-----
+\sectionfont{\scshape}
+
+%%-----
+%% Corpo do texto
+%%-----
+\chapter{Resumo do projeto proposto}\label{chp:resumo_proj} 
+
+Aqui começa o primeiro capítulo com o resumo do projeto proposto.
+
+\chapter{Apresentação do Problema}\label{chp:apresentacao}
+
+Aqui começa o terceiro capítulo com a descrição do apoio institucional recebido.
+
+\chapter{Revisão Bibliográfica Sistemática}\label{chp:revisao}
+
+
+% Uma revisão sistemática, assim como outros tipos de estudo de revisão, é uma forma de pesquisa que utiliza como fonte de dados a literatura sobre determinado tema. Esse tipo de investigação disponibiliza um resumo das evidências relacionadas a uma estratégia de intervenção específica, mediante a aplicação de métodos explícitos e sistematizados de busca, apreciação crítica e síntese da informação selecionada. As revisões sistemáticas são particularmente úteis para integrar as informações de um conjunto de estudos realizados separadamente sobre determinada terapêutica/intervenção, que podem apresentar resultados conflitantes e/ou coincidentes, bem como identificar temas que necessitam de evidência, auxiliando na orientação para investigações futuras5.
+
+Uma revisão bibliográfica sistemática realiza um estudo na literatura científica sobre um determinado assunto aplicando sistematicamente métodos claramente definidos de busca, seleção e síntese de artigos \cite{sampaio2007}.
+
+Um processo revisão sistemática pode ser sintetizada em 5 passos principais:
+
+\begin{enumerate}
+    \item Definir uma ou mais perguntas de pesquisa.
+    \item Busca em bases de dados eletrônicas de periódicos científicos usando um conjunto de palavras chave.
+    \item Inclusão e exclusão de artigos de acordo com critérios de inclusão e exclusão pré-definidos.
+    \item Avaliação da qualidade metodológica dos artigos e crítica de resultados, descartando artigos que estejam abaixo de um nível de qualidade definido.
+    \item Apresentação dos resultados, sintetizando os pontos principais dos artigos não descartados em nenhuma das etapas.
+\end{enumerate}
+
+No processo de revisão bibliográfica deste trabalho, primeiramente foi realizado uma busca em três diferentes repositórios de periódicos científicos utilizando uma \textit{query} de pesquisa. Alguns dos artigos encontrados foram descartados de acordo com o conteúdo de seus \textit{abstracts}, seguindo um conjunto de critérios de exclusão predefinidos. Os últimos restantes receberam uma pontuação relacionada à qualidade do artigo em relação às perguntas de pesquisa.
+
+\section{Busca em Repositórios} \label{sec:busca_em_repositorios}
+
+\textit{Science Direct}\footnote{Disponível em: \url{https://www.sciencedirect.com/}}, ACM\footnote{Disponível em: \url{https://www.acm.org/}} e IEEExplore\footnote{Disponível em: \url{https://ieeexplore.ieee.org/Xplore/home.jsp}} foram os repositórios escolhidos para a realização da busca por artigos. O \textit{Science Direct} foi escolhido pela sua diversidade de periódicos disponíveis, enquanto o IEEExplore e a ACM foram escolhidos pelo seu foco em computação e engenharia.
+
+A busca nesses \textit{sites} foi feita utilizando a \textit{query}:
+
+\begin{lstlisting}[language=Python]
+
+(("evolutionary algorithms" OR "clustering algorithms")
+ AND "classifier ensemble") OR ("evolutionary algorithms"
+ AND ("weak learner" OR "weak classifier"))
+
+\end{lstlisting}
+
+\bigbreak
+
+A busca retornou um total de 490 resultados. Desses, um total de 478 \textit{papers} restaram após a remoção de artigos repetidos e capítulos de livros encontrados.  
+
+\section{Análise de Abstracts} \label{sec:analise_de_abstracts}
+
+Uma avaliação prévia foi realizada nos 478 artigos restantes após a remoção de artigos duplicados e capítulos de livros. Nessa avaliação, os \textit{abstracts} dos artigos restantes são analisados e, se aqueles que apresentam algum dos critérios de exclusão definidos são descartados. Os critérios de exclusão definidos nessa revisão excluem:
+
+\begin{itemize}
+    \item documentos repetidos;
+    \item documentos que não estão em sua versão final;
+    \item artigos que não usam \textit{ensembles} para solução de problemas ou não propõem nenhum novo modelo de \textit{ensemble} de classificadores;
+    \item documentos cujo idioma de escrita não é inglês nem português;
+    \item artigos que abordam os conceitos de forma isolada, em nenhum momento combinando \textit{ensembles} com algoritmos evolutivos ou com algoritmos de agrupamento.
+\end{itemize}
+
+Um total de 119 documentos restaram após a eliminação de artigos que apresentavam um ou mais dos critérios citados. Após essa etapa, foi feita uma leitura completa nos artigos buscando responder um conjunto de perguntas de pesquisa.
+
+\section{Perguntas de Pesquisa} \label{sec:perguntas_de_pesquisa}
+
+As perguntas de pesquisa foram definidas buscando entender como otimização por algoritmos evolutivos e agrupamento de dados pode auxiliar na construção de \textit{ensembles} de classificadores.
+
+O processo de revisão bibliográfica trabalhou com as seguintes perguntas:
+
+\begin{enumerate}
+    \item Quais algoritmos evolutivos são combinados com \textit{ensembles}?
+    \item Quais benefícios de combinar esses algoritmos evolutivos com \textit{ensembles}?
+    \item Quais técnicas de agrupamento de dados são combinadas com \textit{ensembles}?
+    \item Quais benefícios de combinar essas técnicas de agrupamento com \textit{ensembles}?
+    \item Quais critérios são utilizadas para combinar classificadores fracos?
+\end{enumerate}
+
+Um critério de pontuação foi definido de acordo com o número das perguntas acima que o trabalho responde, juntamente com os detalhes fornecidos em cada resposta.
+
+% @@@ Menos de duas perguntas descarta. Se 3 perguntas não incluírem nem a 2 nem a 4 descarta também.
+O critério de pontuação estabele um valor máximo de 8 pontos para cada artigo. Aqueles que obteram 5 ou mais pontos foram selecionados para a etapa de sintetização dos resultados, sendo que um artigo pode obter no máximo 8 pontos.
+
+% @@@ Mais detalhes de como a pontuação é contabilizada incluindo threshold.
+As perguntas 1 e 3 contabilizam 1 ponto cada quando suas respostas estão contidas no trabalho analisado, enquanto as perguntas 2, 4, e 5 fornecem 2 pontos no máximo cada. Nas perguntas 1 e 3 só é possível receber 0 ou 1 ponto, o que depende dos algoritmos evolutivos ou técnicas de agrupamento serem nomeados ou não. As demais perguntas podem receber valores intermediários entre 0 e 2 e são pontuadas de acordo com os seguintes critérios:
+
+\begin{enumerate}
+  \item[2] As vantagems de utilizar o algotimo evolutivo no trabalho é apresentada (1 ponto). A função \textit{fitness} do algoritmo evolutivo são descritas (0,5 ponto). O indivíduo/cromossomo qu forma uma solução candidata no algoritmo evolutivo é descrito (0,5 ponto).
+  \item[4] As vantages de utilizar a técnica de agrupamento no trabalho são apresentadas (1 ponto). É descrito como a técnica ajuda a construir o \textit{ensemble de classificadores}.
+  \item[5] Os classificadores fracos que formam o \textit{ensemble} são listados (1 ponto). É descrito como os reultados dos classificadores fracos são combinados (1 ponto).
+\end{enumerate}
+
+% @@@ Quantos artigos sobraram e ligação com a próxima seção.
+No total @@@ trabalhos conseguiram 5 pontos ou mais e compuseram a síntese de resultados.
+
+\section{Síntese de Resultados} \label{sec:sintese_de_resultados}
+
+A análise completa realizada nos @@@ trabalhos restantes encontrou algoritmos frequentemente utilizados para tarefas específicas na construção de \textit{ensembles}.
+
+% @@@ Quantos trabalhos usaram algoritmos genéticos, fitness
+A maioria dos algoritmos evolutivos utilizados para otimização de \textit{ensembles} foram Algoritmos Genéticos (AGs) comuns, ou então uma variação de AGs. Esses trabalhos buscaram utilizar algoritmos genéticos para otimizar tanto a acurácia quanto a diversidade dos \textit{ensembles} de classificadores.
+
+% @@@ Algoritmos genéticos multi-objetivo acurácia vs diversidade
+
+% @@@ Seleção de features
+
+
+% @@@ Clustering usado para separar itens em diferentes grupos e criar classificadores especializados.
+
+\chapter{Proposta}
+
+% @@@ Análise e fraquezas.
+
+% @@@ Proposta focada em melhorar as falhas dos trabalhos revisados.
+
+
+\chapter{Auxílios Anteriores}
+
+O pesquisador responsável recebeu anteriormente uma bolsa TT-4 da Fapesp para o desenvolvimento de um trabalho junto à Agência de Inovação da UFABC @@@ 
+
+
+%%-----
+%% Referências bibliográficas
+%%-----
+\addcontentsline{toc}{chapter}{\bibname}
+\bibliographystyle{abntex2-num}
+\bibliography{bibliografia}
+
+%%-----
+%% Fim do documento
+%%-----
+\end{document}
