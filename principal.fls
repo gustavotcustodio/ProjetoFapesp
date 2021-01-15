@@ -148,4 +148,5 @@ INPUT /home/gustavo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.
 INPUT /home/gustavo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk
 INPUT /home/gustavo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecxc1728.600pk
 INPUT /home/gustavo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1200.600pk
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb

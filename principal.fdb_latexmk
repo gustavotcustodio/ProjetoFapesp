@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex principal"] 1609396307 "principal.aux" "principal.bbl" "principal" 1610205495
-  "./abntex2-num.bst" 1608849286 60065 f20df0feb716ec75287258079c326f00 ""
-  "bibliografia.bib" 1610205468 583 51e1f6e045fff4fee1b8c9f64287fa3f ""
-  "principal.aux" 1610205468 2055 af4cb730118088449a32d17e6d0e0221 ""
+["bibtex principal"] 1609396307 "principal.aux" "principal.bbl" "principal" 1610687985
+  "./abntex2-num.bst" 1610207695 60065 f20df0feb716ec75287258079c326f00 ""
+  "bibliografia.bib" 1610207695 583 51e1f6e045fff4fee1b8c9f64287fa3f ""
+  "principal.aux" 1610687984 2055 af4cb730118088449a32d17e6d0e0221 ""
   "principal.bcf" 0 -1 0 ""
   (generated)
   "principal.bbl"
   "principal.blg"
-["pdflatex"] 1610177827 "principal.tex" "principal.pdf" "principal" 1610205495
+["pdflatex"] 1610687980 "principal.tex" "principal.pdf" "principal" 1610687985
   "/etc/texmf/web2c/texmf.cnf" 1555218967 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/gustavo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk" 1609043348 31928 b2a5adb4c859ead2b42874f7e597afc8 ""
   "/home/gustavo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2074.600pk" 1609043349 58988 7eadf0fff2029e608624ff9d3f9176f8 ""
@@ -44,6 +44,7 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1480098701 1124 6c73e740cf17375f03eec0ee63599741 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1480098701 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1480098701 1120 8b7d695260f3cff42e636090a8002094 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1480098733 36741 fa121aac0049305630cf160b86157ee4 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1480098733 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1480098806 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf" 1496785618 7008 9ff5fdcc865b01beca2b0fe4a46231d4 ""
@@ -98,13 +99,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1608963990 127904 c32a5cd06dfdf28624e2042343c6ddfd ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1609124782 865487 8e49e131d01b0663026b85ed15e0fcb6 ""
-  "comandos.tex" 1608849286 5830 8953f4676a8c9dfb5400e24e21f724ae ""
-  "principal.aux" 1610205468 2055 af4cb730118088449a32d17e6d0e0221 ""
-  "principal.bbl" 1610205468 450 97db6b902118ed7a96459cb6789a3a72 "bibtex principal"
-  "principal.tex" 1610205469 11799 5f3565df2210cfede88922c5fdc2527d ""
-  "principal.toc" 1610205469 1035 2b0403206eecdc3585a209a795f94dad ""
+  "comandos.tex" 1610207695 5830 8953f4676a8c9dfb5400e24e21f724ae ""
+  "principal.aux" 1610687984 2055 af4cb730118088449a32d17e6d0e0221 ""
+  "principal.bbl" 1610207695 450 97db6b902118ed7a96459cb6789a3a72 "bibtex principal"
+  "principal.tex" 1610687971 12985 2343da2fcc721d4872b51868a17c3511 ""
+  "principal.toc" 1610687984 1035 2b0403206eecdc3585a209a795f94dad ""
   (generated)
+  "principal.toc"
+  "principal.log"
   "principal.aux"
   "principal.pdf"
-  "principal.log"
-  "principal.toc"
