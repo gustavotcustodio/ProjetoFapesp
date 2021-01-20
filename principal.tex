@@ -184,10 +184,10 @@ O processo de revisão bibliográfica trabalhou com as seguintes perguntas:
 
 Um critério de pontuação foi definido de acordo com o número das perguntas acima que o trabalho responde, juntamente com os detalhes fornecidos em cada resposta.
 
-% @@@ Menos de duas perguntas descarta. Se 3 perguntas não incluírem nem a 2 nem a 4 descarta também.
+% Menos de duas perguntas descarta. Se 3 perguntas não incluírem nem a 2 nem a 4 descarta também.
 O critério de pontuação estabele um valor máximo de 8 pontos para cada artigo. Aqueles que obteram 5 ou mais pontos foram selecionados para a etapa de sintetização dos resultados, sendo que um artigo pode obter no máximo 8 pontos.
 
-% @@@ Mais detalhes de como a pontuação é contabilizada incluindo threshold.
+% Mais detalhes de como a pontuação é contabilizada incluindo threshold.
 As perguntas 1 e 3 contabilizam 1 ponto cada quando suas respostas estão contidas no trabalho analisado, enquanto as perguntas 2, 4, e 5 fornecem 2 pontos no máximo cada. Nas perguntas 1 e 3 só é possível receber 0 ou 1 ponto, o que depende dos algoritmos evolutivos ou técnicas de agrupamento serem nomeados ou não. As demais perguntas podem receber valores intermediários entre 0 e 2 e são pontuadas de acordo com os seguintes critérios:
 
 \begin{enumerate}
@@ -196,31 +196,33 @@ As perguntas 1 e 3 contabilizam 1 ponto cada quando suas respostas estão contid
   \item[5] Os classificadores fracos que formam o \textit{ensemble} são listados (1 ponto). É descrito como os reultados dos classificadores fracos são combinados (1 ponto).
 \end{enumerate}
 
-% @@@ Quantos artigos sobraram e ligação com a próxima seção.
+% Quantos artigos sobraram e ligação com a próxima seção.
 No total @@@ trabalhos conseguiram 5 pontos ou mais e compuseram a síntese de resultados.
 
 \section{Síntese de Resultados} \label{sec:sintese_de_resultados}
 
 A análise completa realizada nos @@@ trabalhos restantes encontrou algoritmos frequentemente utilizados para tarefas específicas na construção de \textit{ensembles}.
 
-% @@@ Quantos trabalhos usaram algoritmos genéticos, fitness
+% Quantos trabalhos usaram algoritmos genéticos, fitness
 A maioria dos algoritmos evolutivos utilizados para otimização de \textit{ensembles} foram Algoritmos Genéticos (AGs) comuns, ou então uma variação deles. Esses trabalhos buscaram utilizar AGs para otimizar tanto a acurácia quanto a diversidade dos \textit{ensembles} de classificadores. Na maioria desses trabalhos, os AGs têm a função de seleção de \textit{features}, isto é, selecionar quais atributos da base de dados serão utilizados para treinamento e teste dos classificadores.
 
-% @@@ Seleção de features
-No contexto de seleção de \textit{features}, os cromossomos dos AGs possuem comprimento igual ao número de atributos das instâncias, sendo que cada valor 0 ou 1 do cromossomo indica se o \textit{feature} correspondente foi selecionado para o processo de treinamento e teste dos classificadores base do \textit{ensemble}. A combinação de \textit{features} que resulta no melhor valor de \textit{fitness} é normalmente a selecionada para treinar todos os classificadores, no entanto alguns trabalhos utilizam as $n$ melhores combinações encontradas pelo AG, sendo que em cada um dos $n$ classificadores diferentes é utiizada uma das combinações de \textit{features} encontrada.
+% Seleção de features
+No contexto de seleção de \textit{features}, os cromossomos dos AGs possuem comprimento igual ao número de atributos das instâncias, sendo que cada valor 0 ou 1 do cromossomo indica se o \textit{feature} correspondente foi selecionado para o processo de treinamento e teste dos classificadores base do \textit{ensemble}. A combinação de \textit{features} que resulta no melhor valor de \textit{fitness} é normalmente a selecionada para treinar todos os classificadores, no entanto alguns trabalhos utilizam as $n$ melhores combinações encontradas pelo AG, sendo que para cada um dos $n$ classificadores diferentes é utiizada uma das combinações de \textit{features} encontrada.
 
-% @@@ Mais sobre outras tasks
+% Algoritmos genéticos multi-objetivo acurácia vs diversidade
+Muitos trabalhos utilizaram a acurácia média da dos classificadores fracos na etapa de teste, ou então um valor de diversidade entre os classificadores como \textit{fitness}. Alguns que utilizaram as duas funções objetivo como \textit{fitness}, combinaram elas multiplicando o valor de cada uma por um peso e somando os resultados, outros utilizaram uma abordagem de otimização de múltiplos objetivos, em que a acurácia e a diversidade são duas funções objetivos que devem ser otimizadas simultaneamente. A abordagem de otimização multiobjetivo é vantajosa em relação à soma por pesos quando os pesos das funções objetivo são desconhecidos.
 
-% @@@ Algoritmos genéticos multi-objetivo acurácia vs diversidade
-Muitos trabalhos utilizam como \textit{fitness} a acurácia da etapa de teste dos classificadores fracos, ou então uma métrica de diversidade entre os classificadores do \textit{ensemble}. Trabalhos que utilizam as duas métricas como \textit{fitness} @@@
+No contexto de otimização multi-objetivo, o algoritmo mais utilizado foi o \textit{Non-dominated Sorting Genetic Algorithm} II (NSGA-II). Ele atribui \textit{ranks} para soluções candidatas dependendo se são soluções dominadas ou não, ou seja, se existe alguma solução candidata que possui melhor valor de \textit{fitness} para todas as funções objetivo. O primeiro grupo de soluções não dominadas recebe \textit{rank} 1. Entre o primeiro grupo de soluções dominadas, as soluções não dominadas recebem \textit{rank} 2 e assim por diante. @@@
 
-% @@@ Clustering usado para separar itens em diferentes grupos e criar classificadores especializados.
+% Clustering usado para separar itens em diferentes grupos e criar classificadores especializados.
+
+% Mais sobre outras tasks
 
 \chapter{Proposta}
 
-% @@@ Análise e fraquezas.
+% Análise e fraquezas.
 
-% @@@ Proposta focada em melhorar as falhas dos trabalhos revisados.
+% Proposta focada em melhorar as falhas dos trabalhos revisados.
 
 
 \chapter{Auxílios Anteriores}

@@ -13,6 +13,6 @@
 \contentsline {section}{\numberline {3.2}An\IeC {\'a}lise de Abstracts}{4}
 \contentsline {section}{\numberline {3.3}Perguntas de Pesquisa}{4}
 \contentsline {section}{\numberline {3.4}S\IeC {\'\i }ntese de Resultados}{5}
-\contentsline {chapter}{\numberline {4}Proposta}{6}
-\contentsline {chapter}{\numberline {5}Aux\IeC {\'\i }lios Anteriores}{7}
-\contentsline {chapter}{Refer\IeC {\^e}ncias Bibliogr\IeC {\'a}ficas}{7}
+\contentsline {chapter}{\numberline {4}Proposta}{7}
+\contentsline {chapter}{\numberline {5}Aux\IeC {\'\i }lios Anteriores}{8}
+\contentsline {chapter}{Refer\IeC {\^e}ncias Bibliogr\IeC {\'a}ficas}{8}

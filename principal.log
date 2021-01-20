@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.12.28)  15 JAN 2021 02:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.12.28)  19 JAN 2021 02:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -607,15 +607,15 @@ File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 ) [3
 
-] [4] [5]
+] [4] [5] [6]
 Cap\'{\i }tulo 4.
-[6
+[7
 
 ]
 Cap\'{\i }tulo 5.
-(./principal.bbl [7
+(./principal.bbl [8
 
-]) [8
+]) [9
 
 ] (./principal.aux) ) 
 Here is how much of TeX's memory you used:
@@ -627,10 +627,10 @@ Here is how much of TeX's memory you used:
  38 hyphenation exceptions out of 8191
  41i,11n,43p,812b,1230s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/gustavo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk> </home/gustavo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/gustavo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0700.600pk> </home/gustavo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/gustavo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/gustavo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/gustavo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2074.600pk> </home/gustavo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/gustavo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/gustavo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecxc1728.600pk> </home/gustavo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1200.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on principal.pdf (13 pages, 138493 bytes).
+Output written on principal.pdf (14 pages, 140938 bytes).
 PDF statistics:
- 444 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
+ 451 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

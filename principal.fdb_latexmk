@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex principal"] 1609396307 "principal.aux" "principal.bbl" "principal" 1610687985
+["bibtex principal"] 1611032474 "principal.aux" "principal.bbl" "principal" 1611033211
   "./abntex2-num.bst" 1610207695 60065 f20df0feb716ec75287258079c326f00 ""
   "bibliografia.bib" 1610207695 583 51e1f6e045fff4fee1b8c9f64287fa3f ""
-  "principal.aux" 1610687984 2055 af4cb730118088449a32d17e6d0e0221 ""
+  "principal.aux" 1611033211 2055 4c7363f353e06652980364f1b606c923 ""
   "principal.bcf" 0 -1 0 ""
   (generated)
-  "principal.bbl"
   "principal.blg"
-["pdflatex"] 1610687980 "principal.tex" "principal.pdf" "principal" 1610687985
+  "principal.bbl"
+["pdflatex"] 1611033211 "principal.tex" "principal.pdf" "principal" 1611033211
   "/etc/texmf/web2c/texmf.cnf" 1555218967 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/gustavo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk" 1609043348 31928 b2a5adb4c859ead2b42874f7e597afc8 ""
   "/home/gustavo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2074.600pk" 1609043349 58988 7eadf0fff2029e608624ff9d3f9176f8 ""
@@ -100,12 +100,12 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1608963990 127904 c32a5cd06dfdf28624e2042343c6ddfd ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1609124782 865487 8e49e131d01b0663026b85ed15e0fcb6 ""
   "comandos.tex" 1610207695 5830 8953f4676a8c9dfb5400e24e21f724ae ""
-  "principal.aux" 1610687984 2055 af4cb730118088449a32d17e6d0e0221 ""
-  "principal.bbl" 1610207695 450 97db6b902118ed7a96459cb6789a3a72 "bibtex principal"
-  "principal.tex" 1610687971 12985 2343da2fcc721d4872b51868a17c3511 ""
-  "principal.toc" 1610687984 1035 2b0403206eecdc3585a209a795f94dad ""
+  "principal.aux" 1611033211 2055 4c7363f353e06652980364f1b606c923 ""
+  "principal.bbl" 1611032474 450 97db6b902118ed7a96459cb6789a3a72 "bibtex principal"
+  "principal.tex" 1611033211 13694 b408609794448f97a1fa588e33a3ede7 ""
+  "principal.toc" 1611033211 1035 ae8a6b17eec626c90e2640cc9d182c44 ""
   (generated)
-  "principal.toc"
   "principal.log"
+  "principal.toc"
   "principal.aux"
   "principal.pdf"
